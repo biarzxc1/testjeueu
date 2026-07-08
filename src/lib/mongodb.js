@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const uri = process.env.MONGODB_URI || "mongodb://localhost:27017/eliasdex";
+const uri = process.env.MONGODB_URI || "mongodb+srv://ryograhh:iMSQ2EOP2v7LKwMa@cluster0.vf3o1tn.mongodb.net/?appName=Cluster0";
 
 if (!uri) {
   throw new Error(
